@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.items {
+  background-color: goldenrod;
+  /* border-radius: 8px; */
+  padding: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 20vw);
+  grid-template-rows: repeat(5, 18.9vh);
+  grid-gap: 10px;
+  /* margin: 12px; */
+  height: 100%;
+  width: 100;
+}
+nav {
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+header {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+article {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+footer {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+aside {
+  grid-row-start: 2;
+  grid-row-end: 5;
+}

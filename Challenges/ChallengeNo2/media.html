@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      *,
+      body,
+      html {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+      }
+      .item-1 {
+        background-color: aqua;
+        /* display: inline-block; */
+        margin: 0px;
+        /* width: 25vw; */
+        /* height: 25vh; */
+        float: left;
+        text-align: center;
+      }
+      .item-2 {
+        background-color: blueviolet;
+        /* display: inline-block; */
+        margin: 0px;
+        /* width: 25vw; */
+        /* height: 25vh; */
+        float: left;
+        text-align: center;
+      }
+      .item-3 {
+        background-color: red;
+        /* display: inline-block; */
+        margin: 0px;
+        /* width: 25vw; */
+        /* height: 25vh; */
+        float: left;
+        text-align: center;
+      }
+      .item-4 {
+        background-color: orange;
+        display: inline-block;
+        margin: 0px;
+        text-align: center;
+      }
+      @media screen and (min-width: 900px) {
+        .items {
+          height: 25vh;
+          width: 25vw;
+        }
+      }
+      @media screen and (max-width: 900px) and (min-width: 600px) {
+        .items {
+          height: 20vh;
+          width: 50vw;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .items {
+          height: 15vh;
+          width: 100vw;
+        }
+      }
+      h1 {
+        text-align: center;
+        margin: 12px;
+        padding: 20px;
+        color: green;
+        text-decoration: underline;
+        background-color: aquamarine;
+        border: 2px solid #165303;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Media Queries for large and small widths.</h1>
+    <div class="container">
+      <p class="items item-1">First Item.This is my first paragraph.</p>
+      <p class="items item-2">Second Item.This is my first paragraph.</p>
+      <p class="items item-3">Third Item.This is my first paragraph.</p>
+      <p class="items item-4">Fourth Item.This is my first paragraph.</p>
+    </div>
+  </body>
+</html>

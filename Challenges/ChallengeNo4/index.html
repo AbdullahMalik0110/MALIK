@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      * {
+        margin: 0%;
+      }
+      h1 {
+        padding: 100px;
+        text-align: center;
+        background-color: maroon;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      nav {
+        background-color: #4f0174;
+        padding: 30px;
+        width: 100%;
+        overflow: hidden;
+      }
+      a {
+        color: aqua;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      li {
+        display: inline-block;
+        width: 100px;
+      }
+      #navbar {
+        position: sticky;
+        top: -10px;
+      }
+      nav a:hover {
+        color: red;
+      }
+      nav,
+      ul,
+      li,
+      a {
+        position: sticky;
+        top: 0%;
+      }
+      #para-1 {
+        margin: 60px;
+        padding: 20px;
+        background-color: #06b396;
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+      #para-2 {
+        margin: 60px;
+        padding: 20px;
+        background-color: #86f02f;
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+      #para-3 {
+        margin: 60px;
+        padding: 20px;
+        background-color: red;
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+      #para-4 {
+        margin: 60px;
+        padding: 20px;
+        background-color: orange;
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+      h2 {
+        text-align: center;
+        padding: 10px;
+      }
+      p {
+        text-align: justify;
+        letter-spacing: 1px;
+      }
+      @media all and (max-width: 500px) {
+        li,
+        a {
+          width: 80vw;
+          text-indent: -10%;
+          overflow: hidden;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main"><h1>Cine Verse</h1></div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#para-1">Shoes</a></li>
+        <li><a href="#para-2">Shirts</a></li>
+        <li><a href="#para-3">Pants</a></li>
+        <li><a href="#para-4">Watches</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="paragraphs">
+        <div id="para-1">
+          <h2>Shoes</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            voluptatibus recusandae unde pariatur nulla fugit, impedit expedita
+            itaque illum dignissimos nesciunt aut tempore corrupti sapiente
+            doloremque iure dolore eos nihil illo ex similique libero non fugiat
+            fuga. Voluptatum ipsam saepe, numquam laborum sint ex placeat fuga
+            nihil dolorem odio blanditiis eius iure corporis maxime ad dolore
+            quia soluta labore aspernatur harum? Ipsa pariatur reiciendis totam
+            distinctio suscipit quibusdam sed eaque facilis nam corporis sit a
+            quisquam autem repellat, voluptas consectetur laborum. Aspernatur
+            tempora, labore voluptatum commodi corrupti eos veritatis rem velit
+            deleniti, minima laboriosam omnis, quaerat fugit tenetur officiis
+            accusantium saepe sit? Quis corporis suscipit, architecto aperiam et
+            nulla omnis officia, libero perspiciatis corrupti dignissimos fugit
+            porro ratione fugiat quibusdam exercitationem ea iure aliquid saepe
+            minus ad, odio laudantium. Ipsam aliquam tempore praesentium id
+            quaerat fugiat maxime expedita, molestias perferendis nam
+            exercitationem consectetur excepturi! Autem reiciendis nemo odio
+            dolorem pariatur.
+          </p>
+        </div>
+        <div id="para-2">
+          <h2>Shirts</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ab
+            porro iure itaque id optio nesciunt cupiditate, aut fugiat provident
+            impedit perspiciatis voluptas sed ipsam harum illum. Libero rem
+            voluptate vero praesentium. Nulla laborum totam amet vero itaque,
+            inventore eum numquam neque nemo suscipit vitae exercitationem
+            pariatur facere hic enim laudantium. Non mollitia voluptates ratione
+            sapiente ad, ullam ipsa quae? Non pariatur deleniti, odio eaque
+            veritatis harum eligendi reprehenderit dolores id. Provident fugit,
+            minima, doloremque laboriosam a ipsum vitae tempore error sed non
+            consectetur accusamus repellendus excepturi perspiciatis explicabo
+            modi atque? Vitae aperiam qui aut suscipit in commodi molestias
+            maiores, obcaecati ipsa corporis, totam necessitatibus. Illum sint
+            officia, voluptates nemo corrupti laudantium. At, necessitatibus
+            recusandae ducimus excepturi, magnam eum ea magni nostrum
+            consequatur rerum consectetur voluptatum, ullam debitis beatae
+            inventore possimus odit. Aliquam, libero ipsa at dolor enim illo
+            explicabo eum reprehenderit dignissimos unde. Magnam labore
+            exercitationem ducimus ut sequi?
+          </p>
+        </div>
+        <div id="para-3">
+          <h2>Pants</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            impedit reiciendis aliquid, iusto provident quos harum debitis saepe
+            dolores obcaecati odio, quaerat doloremque corporis eveniet id iure
+            delectus earum vel, unde velit at quam culpa tenetur. Similique
+            quibusdam libero doloremque esse recusandae reprehenderit incidunt
+            nisi quisquam dolore velit dignissimos enim accusamus asperiores,
+            fuga itaque, porro eveniet earum et animi nam exercitationem
+            deserunt aliquam iure unde? Molestias, maxime tempore minus eligendi
+            quos amet quibusdam alias expedita, animi, possimus quam deserunt
+            ducimus assumenda cumque in totam ab? Aspernatur, consequuntur!
+            Rerum error eligendi dolore animi sunt dignissimos aspernatur quia
+            accusamus itaque! Neque nisi cupiditate nesciunt quidem officia
+            nemo, obcaecati cumque aliquam soluta illum commodi dolorum, aliquid
+            quasi earum nulla assumenda rerum at, dolorem enim aperiam quae
+            voluptates quaerat. Fuga quasi laudantium doloremque. Temporibus est
+            dicta totam, libero provident quos voluptatem quo maxime cum porro
+            necessitatibus consectetur itaque. Qui optio nostrum itaque sapiente
+            reprehenderit.
+          </p>
+        </div>
+        <div id="para-4">
+          <h2>Watches</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus corrupti repellendus, voluptas ducimus aut atque,
+            tempore consequatur commodi labore ea at ab hic quaerat cum,
+            perferendis dicta totam exercitationem? Esse, reiciendis, libero
+            optio neque expedita reprehenderit repudiandae quasi magni possimus
+            quis itaque, blanditiis necessitatibus. Temporibus ducimus deleniti
+            officia impedit maxime dolores sunt dolor illum ut iure voluptas,
+            repellat facilis provident non optio quam dolore debitis? Vero eum
+            quam dignissimos. Quis, tempora sunt? Expedita dolore soluta
+            molestias hic, aspernatur fugit architecto amet eligendi nulla
+            explicabo repudiandae facilis nobis temporibus excepturi modi
+            nostrum exercitationem nemo dolor? Sed atque fugit culpa esse nisi
+            expedita ut suscipit, totam dicta a officiis pariatur, facilis
+            quisquam laudantium delectus? Accusamus eum similique consequuntur
+            eius atque culpa dolorem tempora voluptatibus necessitatibus sit
+            expedita, hic nostrum dignissimos quibusdam distinctio? Ducimus
+            inventore natus sint magni, ex, nemo quia dolorum autem provident
+            rem nobis unde est culpa dignissimos et, aliquam officiis.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font: 500;
+    color: #190101;
+}
+
+.container{
+    margin: 40px;
+    padding: 50px;
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: #40060B;
+}
+.containerbox1{
+    text-align: center;
+}
+input[type="number"],
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea,
+select,
+fieldset{
+    margin: 15px;
+    padding: 15px;
+    width:95%;
+    background-color:transparent;
+    border: 3px solid green;
+    border-radius: 5px;
+    color: green;
+}
+
+textarea{
+    height: 20px;
+}
+input[type="radio"]{
+    padding: 20px;
+}
+select{
+    width: 98%;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+background-color: darkgreen;
+border: 3px  green ;
+border-style: dotted;
+border-radius: 3px;
+}
+::placeholder{
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+}
+p{
+    color: green;
+}
