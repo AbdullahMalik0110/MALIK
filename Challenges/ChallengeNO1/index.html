@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>School Admission Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="containerbox1">
+        <h1>School Admission Form</h1>
+        <p>(Please fill all the information correctly.)</p>
+        <!-- input marked by this sign (*) are necessary -->
+      </div>
+      <div class="containerbox2">
+        <form action="#">
+          <p>
+            Full Name*
+            <input
+              type="text"
+              name="Student"
+              id="Student"
+              placeholder="Muhammad Abdullah"
+              required
+            />
+          </p>
+          <p>
+            Class you want to apply for*
+            <input
+              type="number"
+              name="Contact Number"
+              id="Contact Number"
+              placeholder="8th"
+              required
+            />
+          </p>
+          <p>
+            Student Date of Birth*
+            <input type="date" name="DOB" id="DOB" required />
+          </p>
+          <p>
+            Parent/Guardian Name*
+            <input type="text" name="Parent" required id="Parent" />
+          </p>
+          <p>
+            Current Address
+            <br />
+            <textarea
+              name="caddress"
+              id="caddress"
+              cols="30"
+              rows="10"
+              placeholder="Enter Your Current Address"
+            ></textarea>
+          </p>
+          <p>
+            Permanent Address*
+            <br />
+            <textarea
+              name="paddress"
+              id="paddress"
+              cols="30"
+              rows="10"
+              placeholder="Enter Your Permanent Address"
+              required
+            ></textarea>
+          </p>
+          <p>
+            City*
+            <input
+              type="text"
+              id="city "
+              class="city"
+              required
+              placeholder="Multan"
+            />
+          </p>
+          <p>
+            Province
+            <select name="Province" id="Province">
+              <option value="#"><--Select your Province--></option>
+              <option value="punjab">Punjab</option>
+              <option value="Balochistan">Balochistan</option>
+              <option value="KPK">KPK (Khyber pakhtunkhwa)</option>
+              <option value="Sindh">Sindh</option>
+            </select>
+          </p>
+          <fieldset>
+            <legend>Religion*</legend>
+            Muslim
+            <input type="radio" name="religion" id="muslim" />
+            Non-Muslim
+            <input type="radio" name="religion" id="non-muslim" />
+          </fieldset>
+          <p>
+            Parents Contact Number*
+            <input
+              type="number"
+              name="Cnumber"
+              id="Cnumber"
+              placeholder="03112233445"
+              required
+            />
+          </p>
+          <p>
+            Email
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your Email"
+            />
+          </p>
+          <p>
+            <input type="submit" value="Submit" />
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

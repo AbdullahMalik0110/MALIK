@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box # 2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      img {
+        width: 100%;
+        height: 250px;
+      }
+      h2 {
+        text-align: center;
+        margin: 40px;
+        text-transform: uppercase;
+      }
+      p {
+        text-align: justify;
+        margin: 20px 40px;
+      }
+      .flowers1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+      }
+      .flowers2 {
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-between;
+      }
+      #rose {
+        width: 28%;
+        box-shadow: 5px 5px 10px black;
+        box-shadow: -5px -5px 20px black;
+        height: 85vh;
+        margin: 30px;
+        margin-left: 50px;
+        align-self: center;
+        overflow: scroll;
+      }
+      #jasmine {
+        width: 28%;
+        box-shadow: 5px 5px 10px black;
+        box-shadow: -5px -5px 20px black;
+        height: 100vh;
+        margin: 30px;
+        overflow: scroll;
+      }
+      #sunflower {
+        width: 28%;
+        box-shadow: 5px 5px 10px black;
+        box-shadow: -5px -5px 20px black;
+        height: 85vh;
+        margin: 30px;
+        align-self: center;
+        overflow: scroll;
+      }
+      #lily {
+        width: 28%;
+        box-shadow: 5px 5px 10px black;
+        box-shadow: -5px -5px 20px black;
+        height: 85vh;
+        margin: 30px;
+        align-self: center;
+        overflow: scroll;
+      }
+      #daffodil {
+        width: 28%;
+        box-shadow: 5px 5px 10px black;
+        box-shadow: -5px -5px 20px black;
+        height: 100vh;
+        margin: 30px;
+        overflow: scroll;
+      }
+      #tulip {
+        width: 28%;
+        box-shadow: 5px 5px 10px black;
+        box-shadow: -5px -5px 20px black;
+        height: 85vh;
+        margin: 30px;
+        align-self: center;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flowers1" id="first">
+      <div class="flower" id="rose">
+        <img src="rose.jpg" alt="Picture of rose" />
+        <h2>Rose</h2>
+        <p>
+          Rose, (genus Rosa), genus of some 100 species of perennial shrubs in
+          the rose family (Rosaceae). Roses are native primarily to the
+          temperate regions of the Northern Hemisphere. Many roses are
+          cultivated for their beautiful flowers, which range in colour from
+          white through various tones of yellow and pink to dark crimson and
+          maroon, and most have a delightful fragrance, which varies according
+          to the variety and to climatic conditions. Most rose species are
+          native to Asia, with smaller numbers being native to North America and
+          a few to Europe and northwest Africa. Roses from different regions of
+          the world hybridize readily, giving rise to types that overlap the
+          parental forms, and making it difficult to determine basic species.
+          Fewer than 10 species, mostly native to Asia, were involved in the
+          crossbreeding that ultimately produced today’s many types of garden
+          roses.
+        </p>
+      </div>
+      <div class="flower" id="jasmine">
+        <img src="jasmine.jpg" alt="Photo of jasmine" />
+        <h2>Jasmine</h2>
+        <p>
+          Jasmine, (genus Jasminum), genus of about 200 species of
+          fragrant-flowered shrubs and vines of the olive family (Oleaceae). The
+          plants are native to tropical and to some temperate areas of the Old
+          World. Several are cultivated as ornamentals.Most true jasmines have
+          climbing branches without tendrils. The white, yellow, or rarely pink
+          flowers are tubular with a flaring, lobed, pinwheel-like form; some
+          double-flowered varieties have been developed. The leaves can be
+          evergreen or deciduous and usually are composed of two or more
+          leaflets, although some species have simple leaves. The fruit in most
+          species is a two-lobed black berry.Common jasmine, or poet’s jasmine
+          (Jasminum officinale), native to Iran, produces fragrant white flowers
+          that are the source of attar of jasmine used in perfumery. It is
+          widely cultivated for its shining leaves and clusters of flowers that
+          bloom in summer. Winter jasmine (J. nudiflorum), a Chinese species
+          with solitary yellow flowers, is used as a cover plant on hillsides.
+          Japanese, or primrose, jasmine (J. mesnyi) is a similar plant with
+          larger flowers that bloom during the winter. Italian jasmine (J.
+          humile), a vinelike shrub with yellow flowers, has many cultivated
+          varieties. The fragrant dried flowers of Arabian jasmine (J. sambac)
+          are used to make jasmine tea.
+        </p>
+      </div>
+      <div class="flower" id="sunflower">
+        <img src="sunflower.jpg" alt="Picture of sunflower" />
+        <h2>sun flower</h2>
+        <p>
+          Sunflower, (genus Helianthus), genus of nearly 70 species of
+          herbaceous plants of the aster family (Asteraceae). Sunflowers are
+          native primarily to North and South America, and some species are
+          cultivated as ornamentals for their spectacular size and flower heads
+          and for their edible seeds. The Jerusalem artichoke (Helianthus
+          tuberosus) is cultivated for its edible underground tubers. sunflower
+          sunflower Close-up of the head of a common sunflower (Helianthus
+          annuus). The common sunflower (H. annuus) is an annual herb with a
+          rough hairy stem 1–4.5 metres (3–15 feet) high and broad, coarsely
+          toothed, rough leaves 7.5–30 cm (3–12 inches) long arranged in
+          spirals. The attractive heads of flowers are 7.5–15 cm wide in wild
+          specimens and often 30 cm or more in cultivated types. The disk
+          flowers are brown, yellow, or purple, while the petallike ray flowers
+          are yellow. The fruit is a single-seeded achene. Oilseed varieties
+          typically have small black achenes, while those grown for direct seed
+          consumption, known as confection varieties, have larger
+          black-and-white achenes that readily separate from the seed within./p>
+        </p>
+      </div>
+    </div>
+    <div class="flowers2" id="second">
+      <div class="flower" id="lily">
+        <img src="lily.jpg" alt="Picture of Lily" />
+        <h2>lily</h2>
+        <p>
+          Sunflower, (genus Helianthus), genus of nearly 70 species of
+          herbaceous plants of the aster family (Asteraceae). Sunflowers are
+          native primarily to North and South America, and some species are
+          cultivated as ornamentals for their spectacular size and flower heads
+          and for their edible seeds. The Jerusalem artichoke (Helianthus
+          tuberosus) is cultivated for its edible underground tubers. sunflower
+          sunflower Close-up of the head of a common sunflower (Helianthus
+          annuus). The common sunflower (H. annuus) is an annual herb with a
+          rough hairy stem 1–4.5 metres (3–15 feet) high and broad, coarsely
+          toothed, rough leaves 7.5–30 cm (3–12 inches) long arranged in
+          spirals. The attractive heads of flowers are 7.5–15 cm wide in wild
+          specimens and often 30 cm or more in cultivated types. The disk
+          flowers are brown, yellow, or purple, while the petallike ray flowers
+          are yellow. The fruit is a single-seeded achene. Oilseed varieties
+          typically have small black achenes, while those grown for direct seed
+          consumption, known as confection varieties, have larger
+          black-and-white achenes that readily separate from the seed within.
+        </p>
+      </div>
+      <div class="flower" id="daffodil">
+        <img src="daffodil.jpg" alt="Picture of Daffodil" />
+        <h2>Daffodil</h2>
+        <p>
+          Daffodil, (Narcissus pseudonarcissus), bulb-forming plant in the
+          amaryllis family, widely cultivated for its showy, trumpetlike
+          flowers, which emerge in the spring. Daffodils are native to northern
+          Europe and are grown in temperate climates around the world. The
+          daffodil’s popularity has resulted in the production of many
+          varieties; in addition to the classic yellow form, the trumpet and
+          petals may themselves be of contrasting yellow, white, pink, or
+          orange. Taxonomy Kingdom: Plantae Clade: Angiosperm Order: Asparagales
+          Family: Amaryllidaceae Genus: Narcissus See also list of plants in the
+          family Amaryllidaceae daffodil daffodil Daffodils (Narcissus
+          pseudonarcissus). The daffodil is a perennial and grows to about 41 cm
+          (16 inches) in height. Each plant features five or six linear leaves
+          that grow from the bulb and are about 30 cm (12 inches) long. The stem
+          bears one large yellow blossom with a corolla deeply cleft into six
+          lobes of tepals (undifferentiated petals and sepals) and a central
+          bell-shaped crown, or corona, that is frilled at its edges. This
+          trumpet shape contains the stamens and stigma and is the flower’s most
+          conspicuous feature.
+        </p>
+      </div>
+      <div class="flower" id="tulip">
+        <img src="tulip.jpg" alt="Picture of Tulip." />
+        <h2>Tulip</h2>
+        <p>
+          Tulip, (genus Tulipa), genus of about 100 species of bulbous herbs in
+          the lily family, many of which are cultivated in temperate regions for
+          their showy blooms. Native to Central Asia and Turkey, tulips are
+          among the most popular of all garden flowers, and numerous cultivars
+          and varieties have been developed.Tulip cultivation likely began in
+          Persia (Iran) in the 10th century, and it eventually became a symbol
+          of the Ottoman Empire. Tulips were introduced to the Western world by
+          Augier Ghislain de Busbecq, the Viennese ambassador to Turkey, who
+          wrote of seeing the plants in Edirne, Turkey, in 1551 and later sent
+          some seeds to Austria. The arrival at Antwerp in 1562 of a cargo of
+          tulip bulbs from Constantinople (now Istanbul) marked the beginning of
+          the horticultural tulip industry in Europe.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
